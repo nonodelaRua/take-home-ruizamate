@@ -1,0 +1,27 @@
+[
+    {
+        "id": 0,
+        "name": "Antonio Ruiz Amate",
+        "meetings": 3
+    },
+    {
+        "id": 1,
+        "name": "Albert Bermejo",
+        "meetings": 2
+    },
+    {
+        "id": 2,
+        "name": "Jairo Rodríguez",
+        "meetings": 0
+    },
+    {
+        "id": 3,
+        "name": "Laura Hervás",
+        "meetings": 0
+    },
+    {
+        "id": 4,
+        "name": "Giuseppe Marzogli",
+        "meetings": 1
+    }
+]

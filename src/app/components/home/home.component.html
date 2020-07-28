@@ -1,0 +1,40 @@
+<div class="jumbotron jumbotron-fluid animated fadeIn fast">
+
+  <div class="row no-gutters">
+
+    <div class="col-9">
+      <div class="container">
+        <h1 class="display-3">Take-Home</h1>
+        <p class="lead">Scheduler for meetings</p>
+        <p class="lead">What do you want to do first?</p>
+        
+        <form [formGroup]="meeting" (ngSubmit)="onSubmit()">
+          <div class="form-group row">
+            <label for="example-datetime-local-input" class="col-4 col-form-label">Date and time</label>
+            <div class="col-8">
+              <input formControlName="date" class="form-control" type="datetime-local" id="example-datetime-local-input">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <button class="btn btn-primary">Aceptar</button>
+          </div>
+        </form>
+        
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="option-row">
+        <button type="button" class="btn btn-primary" (click)="logDate()">
+          Create new user
+        </button>
+      </div>
+      <div class="option-row">
+        <button type="button" class="btn btn-info">
+          Create new meeting
+        </button>
+      </div>
+    </div>
+  </div>
+
+</div>

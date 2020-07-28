@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'take-home-ruizamate';
 
-  
+  constructor() {}
+
+  ngOnInit(): void {}
 }
