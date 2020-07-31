@@ -10,12 +10,14 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { MeetingsListComponent } from './components/meetings-list/meetings-list.component';
+import { UsersListComponent } from './components/users-list/users-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavbarComponent,
+    UsersListComponent,
     MeetingsListComponent
   ],
   imports: [

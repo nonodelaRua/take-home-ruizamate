@@ -1,0 +1,25 @@
+<div class="alert alert-primary" role="alert">
+    <h2>Users List</h2>
+</div>
+
+<div class="row users-list__content">
+    <div class="col-3 px-0">
+        <div class="alert alert-secondary" role="alert">
+            <h6>Filter by user: </h6>
+        </div>
+    </div>
+    <div class="col-6">
+        <div class="card-rows">
+            <div *ngFor="let item of usersList" class="card users-list__card">
+                <div class="card-header">
+                    # {{ item.id }} - {{ item.name }}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-3 px-0">
+        <div class="alert alert-secondary" role="alert">
+            <h6>Create new user</h6>
+        </div>
+    </div>
+</div>
